@@ -1,0 +1,30 @@
+{
+  "id": "github",
+  "name": "GitHub MCP Server",
+  "description": "Provides contextual repository guidance, standardized best practices, and code assistance for GitHub projects.",
+  "version": "1.0.0",
+  "release_date": "2025-10-24T00:00:00Z",
+  "categories": ["code", "devops", "github"],
+  "latest": true,
+  "endpoints": [
+    {
+      "name": "Code Assistance",
+      "description": "Connects to GitHub for repository FAQ and best practice code examples.",
+      "url": "https://api.github.com/repos"
+    }
+  ],
+  "resources": [
+    "repository-guidance",
+    "best-practices"
+  ],
+  "prompts": [
+    {
+      "name": "Get Repository FAQ",
+      "description": "Retrieve frequently asked questions for a GitHub repository."
+    },
+    {
+      "name": "Get Best Practice Code",
+      "description": "Fetch standardized code examples from authoritative sources."
+    }
+  ]
+}

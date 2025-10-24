@@ -1,0 +1,55 @@
+{
+  "id": "atlassian",
+  "name": "Atlassian MCP Server",
+  "description": "Provides Jira issue analysis, Confluence knowledge exploration, and documentation automation for Atlassian cloud.",
+  "version": "1.0.0",
+  "release_date": "2025-10-24T00:00:00Z",
+  "categories": ["code", "devops", "atlassian"],
+  "latest": true,
+  "endpoints": [
+    {
+      "name": "Jira Issue Analyzer",
+      "description": "Retrieves and summarizes Jira issue details, translating requirements into actionable guidance.",
+      "url": "https://api.atlassian.com/jira"
+    },
+    {
+      "name": "Confluence Knowledge Explorer",
+      "description": "Searches Confluence pages to extract and organize relevant documentation.",
+      "url": "https://api.atlassian.com/confluence"
+    },
+    {
+      "name": "README Generator",
+      "description": "Automatically creates README files using project details.",
+      "url": "https://api.atlassian.com/readme-generator"
+    },
+    {
+      "name": "README to Confluence",
+      "description": "Publishes README content to Confluence pages.",
+      "url": "https://api.atlassian.com/readme-to-confluence"
+    }
+  ],
+  "resources": [
+    "jira-issues",
+    "confluence-pages",
+    "readme-generation",
+    "documentation-publishing"
+  ],
+  "prompts": [
+    {
+      "name": "Summarize Jira Issues",
+      "description": "Convert complex Jira tickets into clear summaries and actionable development approaches."
+    },
+    {
+      "name": "Explore Confluence",
+      "description": "Extract and present relevant documentation from Confluence."
+    },
+    {
+      "name": "Generate README",
+      "description": "Create a README file following IT practice standards."
+    },
+    {
+      "name": "Publish README to Confluence",
+      "description": "Publish README content to a designated Confluence page."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "id": "github",
+      "name": "GitHub MCP Server",
+      "description": "Tools and resources for GitHub repos, issues, PRs, and Actions.",
+      "manifest_url": "https://mcp.github.com/manifest.json",
+      "categories": ["code", "devops", "github"],
+      "version": "1.0.0",
+      "release_date": "2025-09-01T00:00:00Z",
+      "latest": true
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian MCP Server",
+      "description": "Tools for Jira, Confluence, and Atlassian cloud.",
+      "manifest_url": "https://mcp.atlassian.com/manifest.json",
+      "categories": ["code", "devops", "atlassian"],
+      "version": "1.0.0",
+      "release_date": "2025-09-01T00:00:00Z",
+      "latest": true
+    }
+  ],
+  "total_count": 2,
+  "updated_at": "2025-10-24T00:00:00Z"
+}
